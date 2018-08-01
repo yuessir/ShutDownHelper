@@ -181,7 +181,7 @@ namespace CTRL_ShutDown
 		{
 			//System.Diagnostics.Process.Start("https://plus.google.com/u/0/105802546272481120917/posts/MikWjXyaVrb");
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = "mailto:jsyu17[at]gmail.com?subject=[ISSUE]SHUTDOWN Helper v1.1 ";
+            proc.StartInfo.FileName = "";
             proc.Start();
 		}
 
